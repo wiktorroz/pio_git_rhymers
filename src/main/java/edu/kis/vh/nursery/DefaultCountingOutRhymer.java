@@ -19,13 +19,6 @@ public class DefaultCountingOutRhymer {
         return total == numbers.length - 1;
     }
 
-    public int getTotal() {
-		return total;
-	}
-
-	public void setTotal(int total) {
-		this.total = total;
-	}
 
 	protected int peekaboo() {
         if (callCheck())
