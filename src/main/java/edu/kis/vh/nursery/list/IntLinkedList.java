@@ -15,21 +15,21 @@ public class IntLinkedList {
 		}
 	}
 
-	public boolean isEmpty() {
+	public final boolean isEmpty() {
 		return last == null;
 	}
 
-	public boolean isFull() {
+	public final boolean isFull() {
 		return false;
 	}
 
-	public int top() {
+	public final int top() {
 		if (isEmpty())
 			return -1;
 		return last.value;
 	}
 
-	public int pop() {
+	public final int pop() {
 		if (isEmpty())
 			return -1;
 		int ret = last.value;
