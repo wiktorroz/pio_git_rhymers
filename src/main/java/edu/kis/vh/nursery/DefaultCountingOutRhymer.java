@@ -4,6 +4,8 @@ public class DefaultCountingOutRhymer {
 
     public static final int SIZE = 12;
     public static final int VALUE = -1;
+
+    // Do numbers dodalem final
     private final int[] numbers = new int[SIZE]; // zmiana nazwy zmiennej na lowercase, private
 
     private int total = VALUE; // zmiana na private
